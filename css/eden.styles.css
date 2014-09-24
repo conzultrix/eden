@@ -1,0 +1,19 @@
+/* No files to import found in abstractions/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  line-height: 1.7;
+  color: 000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_typography\.scss}line{font-family:\0000310}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal; }
