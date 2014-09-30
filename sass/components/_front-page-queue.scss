@@ -1,0 +1,16 @@
+.front-page-queue {
+  text-align: center;
+  
+  .views-row-1 {
+    background-color: $orange; 
+  }
+  .views-row-3 {
+    background-color: $lightBlue;
+  }
+  .views-row-2 {
+    background: $blueGrey;
+  }
+  .field--showcase-image img {
+    width: 100%;
+  }
+}

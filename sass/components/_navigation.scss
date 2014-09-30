@@ -1,0 +1,35 @@
+nav {
+  #{headings(all)}  {
+    display: none;
+  }
+  font: {
+    //weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: $fontColor;
+    padding: 5px 0;
+    &:hover, &.active {
+      color: $orange;
+      border-bottom: 5px solid $orange;
+    }
+  }
+  ul {
+    @include horizontal-list;
+    list-style-image: none;
+    //padding: 0 1em;
+    li {
+      margin-right: 2em;
+    }
+  }
+  .menu .leaf {
+    list-style-image: none;
+    list-style-type: none;
+  }
+  
+}
+
+.block--system-main-menu .first {
+  //display: none;
+  //margin-left: 0;
+}

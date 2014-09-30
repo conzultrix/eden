@@ -1,0 +1,16 @@
+.site-name {
+  margin-bottom: 0.25em;
+  a{
+    color: darken($fontColor, 20%);
+    text-decoration: none;
+    
+    &:hover {
+      color: $orange;
+    }
+  }
+  
+}
+
+.site-slogan {
+  margin-top: -20px;
+}
