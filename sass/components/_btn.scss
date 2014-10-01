@@ -1,0 +1,8 @@
+.btn {
+  @include sassy-button("flat", 0, 1em, $darkBlue);
+  margin-bottom: 20px;
+  a {
+    text-decoration: none;
+    color: #FFF;
+  }
+}

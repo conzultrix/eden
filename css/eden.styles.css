@@ -34,6 +34,49 @@ a {
   a:hover {
     color: #1d1d1d; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_btn\.scss}line{font-family:\000031}}
+.btn {
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF2A22D3', endColorstr='#FF19147B');
+  background-color: #2A22D3;
+  border: 0;
+  color: white;
+  text-shadow: #141065 0 -1px 0;
+  margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+  .btn:hover {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+  .btn:hover {
+    background-color: #261ebd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+  .btn:active {
+    background-color: #231cb0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+  .btn.disabled, .btn[disabled] {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    background: false;
+    cursor: default;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000374}}
+  .btn::-moz-focus-inner {
+    padding: 0 !important;
+    margin: -1px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_btn\.scss}line{font-family:\000034}}
+  .btn a {
+    text-decoration: none;
+    color: #FFF; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_front-page-queue\.scss}line{font-family:\000031}}
 .front-page-queue {
   text-align: center; }
