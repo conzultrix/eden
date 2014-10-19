@@ -1,0 +1,6 @@
+.search-block-form {
+  @include breakpoint($tab) {
+    text-align: right;
+    margin-top: 20px;
+  }
+}

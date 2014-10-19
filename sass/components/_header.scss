@@ -1,4 +1,5 @@
 .site-name {
+  margin-top: -.3em;
   margin-bottom: 0.25em;
   a{
     color: darken($fontColor, 20%);
@@ -13,4 +14,11 @@
 
 .site-slogan {
   margin-top: -20px;
+}
+
+.site-logo {
+  @include breakpoint($desk) {
+    float: left;
+  }
+  margin-right: 2em;
 }

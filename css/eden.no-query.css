@@ -1,40 +1,39 @@
 /* No files to import found in abstractions/**\/* */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_lists\.scss}line{font-family:\000031}}
 ol, ul {
-  padding: 0; }
+  padding: 0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_lists\.scss}line{font-family:\000035}}
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_typography\.scss}line{font-family:\000031}}
 body {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 100%;
   line-height: 1.7;
-  color: #505050; }
+  color: #505050;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_typography\.scss}line{font-family:\0000310}}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: normal;
-  color: #1d1d1d; }
+  color: #1d1d1d;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_typography\.scss}line{font-family:\0000315}}
 a {
-  color: #F6AD16; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
-  a:hover {
-    color: #1d1d1d; }
+  color: #F6AD16;
+}
+a:hover {
+  color: #1d1d1d;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_btn\.scss}line{font-family:\000031}}
 .btn {
   font-size: 1em;
   padding: 0.5em 1.5em;
@@ -49,110 +48,127 @@ a {
   border: 0;
   color: white;
   text-shadow: #141065 0 -1px 0;
-  margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
-  .btn:hover {
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
-  .btn:hover {
-    background-color: #261ebd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
-  .btn:active {
-    background-color: #231cb0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
-  .btn.disabled, .btn[disabled] {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-    opacity: 0.6;
-    background: false;
-    cursor: default;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\.6\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000374}}
-  .btn::-moz-focus-inner {
-    padding: 0 !important;
-    margin: -1px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_btn\.scss}line{font-family:\000034}}
-  .btn a {
-    text-decoration: none;
-    color: #FFF; }
+  margin-bottom: 20px;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #261ebd;
+}
+.btn:active {
+  background-color: #231cb0;
+}
+.btn.disabled, .btn[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+.btn a {
+  text-decoration: none;
+  color: #FFF;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_front-page-queue\.scss}line{font-family:\000031}}
 .front-page-queue {
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_front-page-queue\.scss}line{font-family:\000034}}
-  .front-page-queue .views-row-1 {
-    background-color: #F6AD16; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_front-page-queue\.scss}line{font-family:\000037}}
-  .front-page-queue .views-row-3 {
-    background-color: #CAC9F1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_front-page-queue\.scss}line{font-family:\0000310}}
-  .front-page-queue .views-row-2 {
-    background: #C8C8C8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_front-page-queue\.scss}line{font-family:\0000313}}
-  .front-page-queue .field--showcase-image img {
-    width: 100%; }
+  text-align: center;
+}
+.front-page-queue .views-row-1 {
+  background-color: #F6AD16;
+}
+.front-page-queue .views-row-3 {
+  background-color: #CAC9F1;
+}
+.front-page-queue .views-row-2 {
+  background: #C8C8C8;
+}
+.front-page-queue .field--showcase-image {
+  max-height: 400px;
+  overflow: hidden;
+}
+.front-page-queue .field--showcase-image img {
+  width: 100%;
+}
+.front-page-queue .field--solution-image {
+  padding-top: 20px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_header\.scss}line{font-family:\000031}}
 .site-name {
-  margin-bottom: 0.25em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_header\.scss}line{font-family:\000033}}
-  .site-name a {
-    color: #1d1d1d;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_header\.scss}line{font-family:\000037}}
-    .site-name a:hover {
-      color: #F6AD16; }
+  margin-top: -.3em;
+  margin-bottom: 0.25em;
+}
+.site-name a {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+.site-name a:hover {
+  color: #F6AD16;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_header\.scss}line{font-family:\0000314}}
 .site-slogan {
-  margin-top: -20px; }
+  margin-top: -20px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_navigation\.scss}line{font-family:\000032}}
+.site-logo {
+  margin-right: 2em;
+}
+
 nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
-  display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_navigation\.scss}line{font-family:\000038}}
+  display: none;
+}
 nav a {
   text-decoration: none;
   color: #505050;
-  padding: 5px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_navigation\.scss}line{font-family:\0000312}}
-  nav a:hover, nav a.active {
-    color: #F6AD16;
-    border-bottom: 5px solid #F6AD16; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_navigation\.scss}line{font-family:\0000317}}
+  padding: 5px 0;
+}
+nav a:hover, nav a.active {
+  color: #F6AD16;
+  border-bottom: 5px solid #F6AD16;
+}
 nav ul {
   margin: 0;
   padding: 0;
   border: 0;
-  list-style-image: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000313}}
-  nav ul:after {
-    content: "";
-    display: table;
-    clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000362}}
-  nav ul li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0;
-    white-space: nowrap;
-    float: left;
-    padding-left: 4px;
-    padding-right: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000349}}
-    nav ul li:first-child {
-      padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000350}}
-    nav ul li:last-child {
-      padding-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000352}}
-    nav ul li.last {
-      padding-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_navigation\.scss}line{font-family:\0000321}}
-  nav ul li {
-    margin-right: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/dunamit\/sites\/all\/themes\/eden\/sass\/components\/_navigation\.scss}line{font-family:\0000325}}
+  list-style-image: none;
+}
+nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+nav ul li:first-child {
+  padding-left: 0;
+}
+nav ul li:last-child {
+  padding-right: 0;
+}
+nav ul li.last {
+  padding-right: 0;
+}
+nav ul li {
+  margin-right: 2em;
+}
 nav .menu .leaf {
   list-style-image: none;
-  list-style-type: none; }
+  list-style-type: none;
+}
+
+.front .block--system-main-menu .first {
+  display: none;
+}

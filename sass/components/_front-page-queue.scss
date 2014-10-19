@@ -9,8 +9,57 @@
   }
   .views-row-2 {
     background: $blueGrey;
+    @include breakpoint($tab) {
+      position: relative;
+      
+      .field--title,
+      .field--body,
+      .field--node-link{
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .field--body {
+        top: 80px;
+      }
+      .field--node-link {
+        top: 250px;
+      }
+    }
   }
-  .field--showcase-image img {
-    width: 100%;
+  .field--showcase-image {
+    max-height: 400px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+  
+  .field--solution-image {
+    padding-top: 20px;
+  }
+  
+  @include breakpoint($tab) {
+    text-align: left;
+    .field--title,
+    .field--body,
+    .field--node-link {
+      display: block;
+      float: left;
+      width: 50%;
+      padding-left: 5em;
+      margin-top: 20px;
+    }
+    .field--body{
+      margin-bottom: 20px;
+    }
+    .field--solution-image {
+      display: block;
+      float: right;
+      width: 50%;
+      text-align: center;
+      margin: 40px 0;
+      padding: 0;
+    }
   }
 }
