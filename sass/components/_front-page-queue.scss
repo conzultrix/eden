@@ -12,18 +12,13 @@
     @include breakpoint($tab) {
       position: relative;
       
-      .field--title,
-      .field--body,
-      .field--node-link{
+      .overlay {
         position: absolute;
         left: 0;
         top: 0;
-      }
-      .field--body {
-        top: 80px;
-      }
-      .field--node-link {
-        top: 250px;
+        width: 50%;
+        background: rgba(255, 255, 255, 0.35);
+        height: 100%;
       }
     }
   }
@@ -40,16 +35,25 @@
   }
   
   @include breakpoint($tab) {
-    text-align: left;
+    .node--solution {
+      .field--title,
+      .field--body,
+      .field--node-link {
+        width: 50%;
+      }
+    }
+    
     .field--title,
     .field--body,
     .field--node-link {
       display: block;
       float: left;
-      width: 50%;
       padding-left: 5em;
       margin-top: 20px;
     }
+    
+    text-align: left;
+    
     .field--body{
       margin-bottom: 20px;
     }

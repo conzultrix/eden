@@ -93,18 +93,13 @@ a:hover {
   .front-page-queue .views-row-2 {
     position: relative;
   }
-  .front-page-queue .views-row-2 .field--title,
-  .front-page-queue .views-row-2 .field--body,
-  .front-page-queue .views-row-2 .field--node-link {
+  .front-page-queue .views-row-2 .overlay {
     position: absolute;
     left: 0;
     top: 0;
-  }
-  .front-page-queue .views-row-2 .field--body {
-    top: 80px;
-  }
-  .front-page-queue .views-row-2 .field--node-link {
-    top: 250px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.35);
+    height: 100%;
   }
 }
 .front-page-queue .field--showcase-image {
@@ -121,12 +116,16 @@ a:hover {
   .front-page-queue {
     text-align: left;
   }
+  .front-page-queue .node--solution .field--title,
+  .front-page-queue .node--solution .field--body,
+  .front-page-queue .node--solution .field--node-link {
+    width: 50%;
+  }
   .front-page-queue .field--title,
   .front-page-queue .field--body,
   .front-page-queue .field--node-link {
     display: block;
     float: left;
-    width: 50%;
     padding-left: 5em;
     margin-top: 20px;
   }
