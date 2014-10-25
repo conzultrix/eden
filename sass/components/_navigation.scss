@@ -33,3 +33,21 @@ nav {
   display: none;
   //margin-left: 0;
 }
+
+.l-region--navigation {
+  #{headings(all)}  {
+    display: none;
+  }
+  
+  @include breakpoint($desk) {
+    .nav {
+      width: 75%;
+      float: left;
+    }
+    .telephone {
+      width: 25%;
+      float: right;
+      text-align: right;
+    }
+  }
+}

@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
+  text-decoration: none;
   color: #F6AD16;
 }
 a:hover {
@@ -78,10 +79,25 @@ a:hover {
 }
 
 footer {
-  background: 000;
+  color: #FFF;
+  margin-top: -40px;
+  margin-left: 1em;
+}
+footer a {
+  color: #FFF;
+}
+footer a:hover {
+  color: #F6AD16;
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+  color: #F6AD16;
 }
 footer .copyright {
-  text-align: centre;
+  text-align: center;
+}
+
+.l-region--footer {
+  background-color: #000;
 }
 
 .front-page-queue {
@@ -177,5 +193,9 @@ nav .menu .leaf {
 }
 
 .front .block--system-main-menu .first {
+  display: none;
+}
+
+.l-region--navigation h1, .l-region--navigation h2, .l-region--navigation h3, .l-region--navigation h4, .l-region--navigation h5, .l-region--navigation h6 {
   display: none;
 }

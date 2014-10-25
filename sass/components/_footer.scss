@@ -1,7 +1,21 @@
 footer {
-  background: 000;
+  //background-color: #000;
+  color: #FFF;
+  margin-top: -40px;
+  margin-left: 1em;
+  
+  a {
+    color: #FFF;
+    &:hover {
+      color: $orange;
+    }
+  }
+  
+  #{headings(all)} {
+    color: $orange;
+  }
   .copyright {
-    text-align: centre;
+    text-align: center;
   }
   @include breakpoint($tab) {
     .block--views-products-block,
@@ -34,4 +48,8 @@ footer {
       clear: both;
     }
   }
+}
+
+.l-region--footer {
+  background-color: #000;
 }
