@@ -29,6 +29,9 @@ regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
+regions[footertop_first] = Footertop first
+regions[footertop_second] = Footertop second
+regions[footertop_third] = Footertop third
 regions[footer] = Footer
 
 ; ========================================
@@ -52,9 +55,10 @@ settings[favicon_path] = ""
 settings[favicon_upload] = ""
 settings[omega_enable_warning] = 1
 settings[omega_toggle_extension_development] = 1
+settings[omega_enable_export_reminder] = 1
 settings[omega_rebuild_theme_registry] = 0
 settings[omega_rebuild_aggregates] = 0
-settings[omega_browser_width_indicator] = 0
+settings[omega_browser_width_indicator] = 1
 settings[omega_livereload] = 1
 settings[omega_livereload_script] = http://localhost:35729/livereload.js
 settings[omega_livereload_host] = localhost
@@ -76,5 +80,3 @@ settings[omega_mobile_optimized] = 1
 settings[omega_viewport] = 1
 settings[omega_viewport_user_scaleable] = 1
 settings[omega_chrome_edge] = 1
-settings[omega_chrome_popup] = 0
-settings[omega_chrome_notice] = 0
