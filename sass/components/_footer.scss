@@ -1,3 +1,37 @@
 footer {
+  background: 000;
+  .copyright {
+    text-align: centre;
+  }
+  @include breakpoint($tab) {
+    .block--views-products-block,
+    .head-office {
+      width: 50%;
+      float: left;
+      padding-right: 2em;
+    }
+    .head-office {
+      float: right;
+    }
+    .branch-offices {
+      clear: both;
+    }
+  }
   
+  @include breakpoint($desk) {
+    .block--views-products-block,
+    .head-office,
+    .branch-offices {
+      width:33.333333333%;
+      float: left;
+      display: inline-block;
+    }
+    .branch-offices {
+      clear: none;
+      float: right;
+    }
+    .copyright {
+      clear: both;
+    }
+  }
 }

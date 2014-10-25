@@ -77,6 +77,43 @@ a:hover {
   color: #FFF;
 }
 
+footer {
+  background: 000;
+}
+footer .copyright {
+  text-align: centre;
+}
+@media (min-width: 44em) {
+  footer .block--views-products-block,
+  footer .head-office {
+    width: 50%;
+    float: left;
+    padding-right: 2em;
+  }
+  footer .head-office {
+    float: right;
+  }
+  footer .branch-offices {
+    clear: both;
+  }
+}
+@media (min-width: 70em) {
+  footer .block--views-products-block,
+  footer .head-office,
+  footer .branch-offices {
+    width: 33.333333333%;
+    float: left;
+    display: inline-block;
+  }
+  footer .branch-offices {
+    clear: none;
+    float: right;
+  }
+  footer .copyright {
+    clear: both;
+  }
+}
+
 .front-page-queue {
   text-align: center;
 }

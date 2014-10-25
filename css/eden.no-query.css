@@ -77,6 +77,13 @@ a:hover {
   color: #FFF;
 }
 
+footer {
+  background: 000;
+}
+footer .copyright {
+  text-align: centre;
+}
+
 .front-page-queue {
   text-align: center;
 }

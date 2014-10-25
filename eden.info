@@ -29,9 +29,6 @@ regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
-regions[footertop_first] = Footertop first
-regions[footertop_second] = Footertop second
-regions[footertop_third] = Footertop third
 regions[footer] = Footer
 
 ; ========================================
