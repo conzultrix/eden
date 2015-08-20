@@ -1,0 +1,164 @@
+/*******************************************************************************
+ * passive.layout.scss
+ *
+ * Styling of the "passive" layout demonstrating the Compass grid extension Singularity
+ * and building mobile first layouts.
+ ******************************************************************************/
+.l-constrained {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.l-branding,
+.l-postscript {
+  margin-bottom: 20px;
+}
+
+.l-region--highlighted,
+.l-region--help,
+.l-region--sidebar-first,
+.l-region--sidebar-second,
+.l-region--postrow,
+.l-region--postscript-first,
+.l-region--postscript-second,
+.l-region--postscript-third,
+.l-region--footer {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 44em) {
+  .l-constrained {
+    width: 90%;
+  }
+
+  .l-main {
+    clear: left;
+  }
+
+  .l-branding {
+    width: 31.91489%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+
+  .l-region--header {
+    width: 65.95745%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+
+  .l-region--navigation {
+    clear: both;
+  }
+
+  .has-sidebar-first .l-content,
+  .has-sidebar-second .l-content,
+  .has-two-sidebars .l-content {
+    width: 65.95745%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+  .has-sidebar-first .l-region--sidebar-first,
+  .has-sidebar-first .l-region--sidebar-second,
+  .has-sidebar-second .l-region--sidebar-first,
+  .has-sidebar-second .l-region--sidebar-second,
+  .has-two-sidebars .l-region--sidebar-first,
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 31.91489%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+  .has-sidebar-first .l-region--sidebar-second,
+  .has-sidebar-second .l-region--sidebar-second,
+  .has-two-sidebars .l-region--sidebar-second {
+    clear: right;
+  }
+
+  .l-postscript,
+  .l-footer {
+    clear: both;
+  }
+}
+@media (min-width: 70em) {
+  .l-constrained {
+    width: 80%;
+  }
+
+  .l-branding {
+    width: 36.50794%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+
+  .l-region--header {
+    width: 61.90476%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+
+  .has-sidebar-first .l-content {
+    width: 74.60317%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+  .has-sidebar-first .l-region--sidebar-first {
+    width: 23.80952%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+
+  .has-sidebar-second .l-content {
+    width: 74.60317%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+  .has-sidebar-second .l-region--sidebar-second {
+    width: 23.80952%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: none;
+  }
+
+  .has-two-sidebars .l-content {
+    width: 49.20635%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+  .has-two-sidebars .l-region--sidebar-first {
+    width: 23.80952%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.79365%;
+    clear: none;
+  }
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 23.80952%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: none;
+  }
+}

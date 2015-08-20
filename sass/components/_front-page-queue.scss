@@ -1,5 +1,11 @@
 .front-page-queue {
   text-align: center;
+  margin-bottom: -1.5em;
+  margin-top: 1em;
+  
+  li:last-child {
+    padding-bottom: 20px;
+  }
   
   .views-row-1 {
     background-color: $orange; 
@@ -49,7 +55,7 @@
     .field--node-link {
       display: block;
       float: left;
-      padding-left: 5em;
+      //padding-left: 5em;
     }
     
     text-align: left;
@@ -74,6 +80,47 @@
       .field--node-link {
         margin-top: 20px;
       }
+    }
+  }
+}
+
+.front-page-queue li > div {
+  width: 95%;
+  margin: 0 auto;
+  
+  //.field--showcase-image
+}
+
+.front-page-queue li > div.node--showcase {
+  width: 100%;
+  
+  .field--title, .field--body {
+    width: 95%;
+  }
+}
+
+@include breakpoint($tab, true) {
+  .front-page-queue li > div {
+    width: 90%;
+  }
+  .front-page-queue li > div.node--showcase {
+    width: 100%;
+    
+    .field--title, .field--body, .field--node-link {
+      margin-left: 10%;
+    }
+  }
+  
+}
+
+@include breakpoint($desk, true) {
+  .front-page-queue li > div {
+    width: 80%;
+  }
+  
+  .front-page-queue li > div.node--showcase {
+    .field--title, .field--body, .field--node-link {
+      margin-left: 20%;
     }
   }
 }

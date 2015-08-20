@@ -12,6 +12,16 @@ img, media {
 }
 
 body {
+  background-color: #FFFFFF;
+  padding-top: 30px;
+}
+
+.l-footer {
+  background-color: #000;
+  padding-bottom: 30px;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -80,8 +90,6 @@ a:hover {
 
 footer {
   color: #FFF;
-  margin-top: -40px;
-  margin-left: 1em;
 }
 footer a {
   color: #FFF;
@@ -95,43 +103,52 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
 footer .copyright {
   text-align: center;
 }
+
+.l-region--footer {
+  padding-top: 20px;
+}
+
 @media (min-width: 44em) {
-  footer .block--views-products-block,
-  footer .head-office {
+  .block--views-products-block,
+  .head-office {
     width: 50%;
     float: left;
     padding-right: 2em;
   }
-  footer .head-office {
+
+  .head-office {
     float: right;
   }
-  footer .branch-offices {
+
+  .branch-offices {
     clear: both;
   }
 }
 @media (min-width: 70em) {
-  footer .block--views-products-block,
-  footer .head-office,
-  footer .branch-offices {
+  .block--views-products-block,
+  .head-office,
+  .branch-offices {
     width: 33.333333333%;
     float: left;
     display: inline-block;
   }
-  footer .branch-offices {
+
+  .branch-offices {
     clear: none;
     float: right;
   }
-  footer .copyright {
+
+  .copyright {
     clear: both;
   }
 }
-
-.l-region--footer {
-  background-color: #000;
-}
-
 .front-page-queue {
   text-align: center;
+  margin-bottom: -1.5em;
+  margin-top: 1em;
+}
+.front-page-queue li:last-child {
+  padding-bottom: 20px;
 }
 .front-page-queue .views-row-1 {
   background-color: #F6AD16;
@@ -180,7 +197,6 @@ footer .copyright {
   .front-page-queue .field--node-link {
     display: block;
     float: left;
-    padding-left: 5em;
   }
   .front-page-queue .field--body {
     margin-bottom: 20px;
@@ -202,6 +218,39 @@ footer .copyright {
   }
 }
 
+.front-page-queue li > div {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.front-page-queue li > div.node--showcase {
+  width: 100%;
+}
+.front-page-queue li > div.node--showcase .field--title, .front-page-queue li > div.node--showcase .field--body {
+  width: 95%;
+}
+
+@media (min-width: 44em) {
+  .front-page-queue li > div {
+    width: 90%;
+  }
+
+  .front-page-queue li > div.node--showcase {
+    width: 100%;
+  }
+  .front-page-queue li > div.node--showcase .field--title, .front-page-queue li > div.node--showcase .field--body, .front-page-queue li > div.node--showcase .field--node-link {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 70em) {
+  .front-page-queue li > div {
+    width: 80%;
+  }
+
+  .front-page-queue li > div.node--showcase .field--title, .front-page-queue li > div.node--showcase .field--body, .front-page-queue li > div.node--showcase .field--node-link {
+    margin-left: 20%;
+  }
+}
 .site-name {
   margin-top: -.3em;
   margin-bottom: 0.25em;

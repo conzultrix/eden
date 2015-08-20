@@ -12,6 +12,16 @@ img, media {
 }
 
 body {
+  background-color: #FFFFFF;
+  padding-top: 30px;
+}
+
+.l-footer {
+  background-color: #000;
+  padding-bottom: 30px;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -80,8 +90,6 @@ a:hover {
 
 footer {
   color: #FFF;
-  margin-top: -40px;
-  margin-left: 1em;
 }
 footer a {
   color: #FFF;
@@ -97,11 +105,16 @@ footer .copyright {
 }
 
 .l-region--footer {
-  background-color: #000;
+  padding-top: 20px;
 }
 
 .front-page-queue {
   text-align: center;
+  margin-bottom: -1.5em;
+  margin-top: 1em;
+}
+.front-page-queue li:last-child {
+  padding-bottom: 20px;
 }
 .front-page-queue .views-row-1 {
   background-color: #F6AD16;
@@ -121,6 +134,37 @@ footer .copyright {
 }
 .front-page-queue .field--solution-image {
   padding-top: 20px;
+}
+
+.front-page-queue li > div {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.front-page-queue li > div.node--showcase {
+  width: 100%;
+}
+.front-page-queue li > div.node--showcase .field--title, .front-page-queue li > div.node--showcase .field--body {
+  width: 95%;
+}
+
+.front-page-queue li > div {
+  width: 90%;
+}
+
+.front-page-queue li > div.node--showcase {
+  width: 100%;
+}
+.front-page-queue li > div.node--showcase .field--title, .front-page-queue li > div.node--showcase .field--body, .front-page-queue li > div.node--showcase .field--node-link {
+  margin-left: 10%;
+}
+
+.front-page-queue li > div {
+  width: 80%;
+}
+
+.front-page-queue li > div.node--showcase .field--title, .front-page-queue li > div.node--showcase .field--body, .front-page-queue li > div.node--showcase .field--node-link {
+  margin-left: 20%;
 }
 
 .site-name {
