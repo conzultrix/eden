@@ -88,6 +88,14 @@ a:hover {
   color: #FFF;
 }
 
+img {
+  text-align: center;
+}
+
+.field--product-image {
+  text-align: center;
+}
+
 footer {
   color: #FFF;
 }
@@ -96,6 +104,9 @@ footer a {
 }
 footer a:hover {
   color: #F6AD16;
+}
+footer a.active {
+  color: #FFF;
 }
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
   color: #F6AD16;
@@ -226,9 +237,6 @@ footer .copyright {
 .front-page-queue li > div.node--showcase {
   width: 100%;
 }
-.front-page-queue li > div.node--showcase .field--title, .front-page-queue li > div.node--showcase .field--body {
-  width: 95%;
-}
 
 @media (min-width: 44em) {
   .front-page-queue li > div {
@@ -251,6 +259,17 @@ footer .copyright {
     margin-left: 20%;
   }
 }
+.l-grid {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.l-grid > li {
+  display: inline-block;
+  margin: 0 0 10px 10px;
+}
+
 .site-name {
   margin-top: -.3em;
   margin-bottom: 0.25em;
@@ -274,6 +293,10 @@ footer .copyright {
   .site-logo {
     float: left;
   }
+}
+
+.l-postscript {
+  padding-top: 40px;
 }
 
 nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
@@ -349,4 +372,45 @@ nav .menu .leaf {
     text-align: right;
     margin-top: 20px;
   }
+}
+
+.l-grid .node--product--teaser {
+  position: relative;
+}
+
+.l-grid .node--product--teaser .field--title {
+  background: rgba(0, 0, 0, 0.4);
+  display: block;
+  text-align: center;
+  color: #dedede;
+  height: 5em;
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  line-height: 1.2;
+}
+.l-grid .node--product--teaser .field--title a {
+  color: #FFF;
+}
+.l-grid .node--product--teaser .field--title a:hover {
+  color: #F6AD16;
+}
+
+.section-who-we-are .l-main {
+  background-color: #CAC9F1;
+}
+
+.section-what-we-do .l-main {
+  background-color: #F2F2F2;
+}
+
+.node--storyboard {
+  text-align: center;
+}
+
+.storyboard-leader {
+  padding-bottom: 100px;
 }

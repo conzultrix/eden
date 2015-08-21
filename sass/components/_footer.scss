@@ -7,13 +7,16 @@ footer {
     &:hover {
       color: $orange;
     }
+    &.active {
+      color: #FFF;
+    }
   }
   
   #{headings(all)} {
     color: $orange;
   }
   .copyright {
-    text-align: center;
+    text-align: center; 
   }
 }
 
