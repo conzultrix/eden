@@ -295,10 +295,6 @@ footer .copyright {
   }
 }
 
-.l-postscript {
-  padding-top: 40px;
-}
-
 nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
   display: none;
 }
@@ -346,10 +342,6 @@ nav ul li {
 nav .menu .leaf {
   list-style-image: none;
   list-style-type: none;
-}
-
-.front .block--system-main-menu .first {
-  display: none;
 }
 
 .l-region--navigation h1, .l-region--navigation h2, .l-region--navigation h3, .l-region--navigation h4, .l-region--navigation h5, .l-region--navigation h6 {
@@ -413,4 +405,11 @@ nav .menu .leaf {
 
 .storyboard-leader {
   padding-bottom: 100px;
+}
+
+.block--dunamit-storyboard {
+  text-align: center;
+}
+.block--dunamit-storyboard h2 {
+  margin-top: 80px;
 }
